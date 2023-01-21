@@ -22,7 +22,7 @@ function App() {
   const styles = { height: "100vh" };
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route
